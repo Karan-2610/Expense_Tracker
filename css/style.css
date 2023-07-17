@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+
+body{
+
+    background-image: linear-gradient(to right, #9e4dfc ,#885bf1);
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.navbar .navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+button{
+    background-color: #8820fc  !important;
+    border-radius: 200px !important;
+    border: none !important;
+    padding:6px 30px !important;
+}
+
+.pricing .iconcontainer{
+    border:2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.pricing i {
+    font-size: 40px;
+    color: white;
+
+}
+
+.expenses .card-body{
+    background-color: #7a42f9 !important;
+    color: white;
+}
+
+.expenses .btn-link{
+    background-color:  transparent !important;
+    text-decoration: none;
+    padding: 0 !important;
+    padding-left: 20px !important;
+    font-size: 20px;
+}
+
+.userlogin .card{
+    background-color: #8350f5;
+    
+}
+
+.userlogin .iconcontainer{
+    border:2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.userlogin i {
+    font-size: 40px;
+    color: white;
+
+}
+
+#myChart{
+    height: 400px !important;
+    width: 100% !important;
+}
